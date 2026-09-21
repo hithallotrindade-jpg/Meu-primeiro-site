@@ -134,3 +134,45 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+/* Melhorias visuais do site */
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f2b705;
+}
+
+.produto {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.botao {
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.botao:hover {
+    transform: scale(1.03);
+}
+
+.imagem-principal {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 12px;
+}
